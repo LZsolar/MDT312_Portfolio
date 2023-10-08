@@ -1,0 +1,82 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#bf726c 1.05px, transparent 1.05px), radial-gradient(#bf726c 1.05px, #ffffff 1.05px);
+    background-size: 42px 42px;
+    background-position: 0 0,21px 21px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid indianred;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.837);
+} 
+
+#header{
+    grid-column: 1 / span  3;
+}
+
+#left{
+    grid-column: 1 / span 1;
+}
+
+#main{
+    grid-column: 2 / span 1;
+}
+#right{
+    grid-column: 3 / span 1;
+}
+
+#footer{
+    grid-column: 1 / span 3;
+} 
+
+h1{
+    background-color: rgb(235, 174, 174);
+}
+
+#postButton{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+#clearButton{
+    background-color: rgb(233, 110, 110);
+    font-size: 20px;
+}
+
+#topic1{
+    background-color: burlywood;
+}
+
+img{
+    width: 50%;
+}
+a:link{
+	color: #2214ef; 
+}  
+a:visited{
+	color: #4e1298; 
+} 
+ a:hover{ 
+	color: #FF00FF; 
+} 
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}

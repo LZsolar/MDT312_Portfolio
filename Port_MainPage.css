@@ -1,0 +1,93 @@
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#bf726c 1.05px, transparent 1.05px), radial-gradient(#bf726c 1.05px, #ffffff 1.05px);
+    background-size: 42px 42px;
+    background-position: 0 0,21px 21px;
+}
+
+h1{
+    background-color: lightcoral;
+    color: whitesmoke;
+    padding-left: auto;
+}
+h2{
+    background-color: lightpink;
+    color: whitesmoke;
+    padding-left: auto;
+}
+
+p{
+    background-color: lightgoldenrodyellow;
+    color: brown;
+    font-size: 20pt;
+    padding-left: auto;
+}
+#textcenter{
+    text-align: center;
+}
+
+li{
+    font-size: 15pt;
+}
+#poke{
+    width: 10%;
+}
+img{
+    width: 35%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+/* Grid display */
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid indianred;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.833);
+} 
+
+#header{
+    grid-column: 1 / span  3;
+}
+
+#menu{
+    grid-column: 1 / span 1;
+}
+
+#main{
+    grid-column: 2 / span 1;
+
+    
+}
+
+#footer{
+    grid-column: 1 / span 3;
+} 
+
+a:link{
+	color: #2214ef; 
+}  
+a:visited{
+	color: #4e1298; 
+} 
+ a:hover{ 
+	color: #FF00FF; 
+} 
